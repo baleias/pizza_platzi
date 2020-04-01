@@ -1,0 +1,278 @@
+/* geral */
+body {
+    background-image: url("./imgs/BG.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #F6F8F9;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+h2 {
+    font-family: "Roboto";
+    color: #00000;
+    font-size: 16px;
+}
+
+p {
+    font-family: roboto, sans-serif;
+    color: black;
+}
+
+p::selection{
+    background-color: #98CA3F;
+}
+
+p::-moz-selection{
+    background-color: #98CA3F;
+}
+
+
+
+
+/* header */
+header {
+    margin-top: 10px;
+    height: 80px;
+}
+
+header > nav {
+    float: right;
+}
+
+header > nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+}
+
+#top {
+    margin-top: 42px;
+    text-align: center;
+}
+
+#top > p {
+    width: 60%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top > img{ 
+    width: 24%
+}
+
+#logomain {
+    height: auto;
+    display: inline-block;
+}
+
+
+
+
+/* Body */
+
+.botao {
+    width: 80px;
+    height: 21px;
+    background-color: #98CA3F;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.botao:hover {
+    transform: scale(1.05);
+}
+
+/* barra de apresentação */
+
+#general {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 18%;
+}
+
+#general > figure {
+    display: inline-block;
+    text-align: center;
+    width: 310px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 4px 3px 4px 1px rgba(158,149,158,1);
+    margin-bottom: 2px;
+    margin-left: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 2%;
+    margin: 10px;
+}
+
+#general > figure:hover {
+    transform: scale(1.01);
+    box-shadow: 5px 4px 5px 2px rgba(158,149,158,1);
+    transition: all 0.3s ease-in;
+}
+
+.Titulo > h2 {
+    margin: 3px;
+}
+
+
+#general > figure > p {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 42px;
+}
+
+#general > figure > a {
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px;
+}
+
+#general > figure > a:hover {
+    border-bottom: 2px solid #98CA3F;
+    transition: all 0.15s ease;
+    padding-bottom: 5px;
+
+}
+
+#general > figure > img {
+    margin-bottom: 20px;
+}
+
+#Titulo {
+    display: flex;
+    justify-content: center;
+}
+
+#Titulo h2 {
+    text-justify: center;
+}
+
+
+/* Barra depoimento */
+
+.compromisso {
+    background-color: #98CA3F;
+    display: grid;
+    grid-template-columns: 15% 35% auto 20%;
+    grid-template-rows: auto 10% 20% 30% 20%;
+    margin-top: -90px;
+    width: 100%;
+    height: 95%;
+
+}
+
+.compromisso h2, .compromisso h3{
+    color: white;
+    text-align: left;
+}
+
+.compromisso p, .compromisso h4 {
+    color: #182C3F;
+    text-align: left;
+}
+
+#c_texto {
+    grid-column: 2;
+    grid-row: 2 / 4;
+    text-align: left;
+    line-height: 27px;
+}
+
+#c_texto p {
+    font-size: 15px;
+}
+
+.c_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sliding > div > img {
+    max-width: 300px;
+}
+
+.classslide {
+    max-width: 300px;
+    margin: 0 auto;
+    height: auto;
+    grid-column: 3 ;
+    grid-row: 3 / 6;
+    
+}
+
+/* PHOTOS */
+
+.photo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#greybar {
+    background-color: lightgrey;
+    width: 75px;
+    height: 24px;
+}
+
+.navbar {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+}
+
+#leftfoot{
+    float: left;
+}
+
+#leftfoot a {
+    padding: 12px 12px;
+}
+
+#rightfoot {
+    float: right;
+}
+
+#rightfoot img {
+    padding: 12px 6px;
+}
+
+#logofoot {
+    display: block;
+    width: 15%;
+    margin-top: 51px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    
+}
